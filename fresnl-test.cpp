@@ -2,6 +2,7 @@
 using std::cerr;
 using std::cout;
 using std::endl;
+// System includes such as <cmath> have to go before "cephes.h"; not sure why.
 #include "cephes.h"
 
 int main(int argc, char** argv){
