@@ -1,6 +1,6 @@
 SCIPY_SPECIAL=scipy/special
 CEPHES=$(SCIPY_SPECIAL)/cephes
-CFLAGS=-I /usr/include/python3.5 -I /usr/lib/python3/dist-packages/numpy/core/include -I $(SCIPY_SPECIAL) -Wall
+CFLAGS+=-I /usr/include/python3.6 -I /usr/lib/python3/dist-packages/numpy/core/include -I $(SCIPY_SPECIAL) -Wall
 
 CXXFLAGS=-I $(SCIPY_SPECIAL)
 
